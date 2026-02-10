@@ -43,6 +43,7 @@ dependencies = [
     "mongomock",
     "rich",
     "google-adk",
+    "google-cloud-geminidataanalytics>=0.1.0"
 ]
 
 [tool.setuptools.packages.find]
