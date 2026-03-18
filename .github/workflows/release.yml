@@ -54,6 +54,9 @@ jobs:
       - name: Install dependencies
         run: uv sync --frozen
 
+      - name: Install PyInstaller
+        run: uv pip install pyinstaller
+
       - name: Build binary with PyInstaller
         run: uv run pyinstaller pyinstaller.spec
 
